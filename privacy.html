@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Zeitly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blue:      #0A64BC;
+      --blue-dark: #084A8E;
+      --text:      #1A2332;
+      --muted:     #5E6C84;
+      --light:     #A5B4CB;
+      --bg:        #F5F8FA;
+      --white:     #FFFFFF;
+      --border:    #E2EAF2;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--blue) 0%, var(--blue-dark) 100%);
+      padding: 56px 24px 48px;
+      text-align: center;
+      color: white;
+    }
+
+    header .wordmark {
+      font-family: 'DM Serif Display', serif;
+      font-size: 28px;
+      letter-spacing: -0.5px;
+      opacity: 0.92;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(32px, 5vw, 48px);
+      font-weight: 400;
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+
+    header p {
+      font-size: 15px;
+      opacity: 0.75;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 56px 24px 96px;
+    }
+
+    section { margin-bottom: 48px; }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--text);
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1.5px solid var(--border);
+    }
+
+    h2 .num {
+      color: var(--blue);
+      margin-right: 8px;
+      font-size: 14px;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      vertical-align: middle;
+      position: relative;
+      top: -2px;
+    }
+
+    p { margin-bottom: 14px; font-size: 15.5px; color: var(--text); }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      margin: 10px 0 14px 0;
+      padding-left: 20px;
+    }
+
+    ul li {
+      font-size: 15.5px;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    /* Data table */
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14.5px;
+    }
+
+    .data-table th {
+      background: var(--blue);
+      color: white;
+      text-align: left;
+      padding: 10px 14px;
+      font-weight: 500;
+    }
+
+    .data-table th:first-child { border-radius: 8px 0 0 0; }
+    .data-table th:last-child  { border-radius: 0 8px 0 0; }
+
+    .data-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+      vertical-align: top;
+    }
+
+    .data-table tr:last-child td { border-bottom: none; }
+    .data-table tr:nth-child(even) td { background: white; }
+
+    .highlight {
+      background: white;
+      border-left: 3px solid var(--blue);
+      border-radius: 0 8px 8px 0;
+      padding: 16px 20px;
+      margin: 20px 0;
+      font-size: 15px;
+      color: var(--muted);
+    }
+
+    .rights-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 16px 0;
+    }
+
+    .right-item {
+      background: white;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+    }
+
+    .right-item strong {
+      display: block;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--blue);
+      margin-bottom: 4px;
+    }
+
+    .right-item span {
+      font-size: 13.5px;
+      color: var(--muted);
+    }
+
+    .contact-card {
+      background: white;
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 16px;
+    }
+
+    .contact-card p { margin: 0; font-size: 15px; color: var(--muted); }
+    .contact-card a { color: var(--blue); text-decoration: none; font-weight: 500; }
+    .contact-card a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--light);
+    }
+
+    footer a { color: var(--blue); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 540px) {
+      .rights-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wordmark">Zeitly</div>
+  <h1>Privacy Policy</h1>
+  <p>Effective date: 1 January 2025 &nbsp;·&nbsp; Last updated: 1 January 2025</p>
+</header>
+
+<div class="container">
+
+  <div class="highlight">
+    Your privacy matters to us. This policy explains what data we collect, why we collect it, and how you can control it. Zeitly complies with the Swiss Federal Act on Data Protection (revFADP).
+  </div>
+
+  <section>
+    <h2><span class="num">01</span>Who We Are</h2>
+    <p>Zeitly is a time-exchange marketplace operated from St. Gallen, Switzerland. For the purposes of Swiss data protection law, Zeitly is the data controller responsible for your personal data.</p>
+    <p>Contact: <a href="mailto:legal@zeitly.app">legal@zeitly.app</a></p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Data We Collect</h2>
+    <p>We collect only the data necessary to operate the Service:</p>
+
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Data</th>
+          <th>Why we collect it</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Name &amp; email</strong></td>
+          <td>Account creation and authentication</td>
+        </tr>
+        <tr>
+          <td><strong>Profile photo</strong></td>
+          <td>Displayed on your profile and to other users</td>
+        </tr>
+        <tr>
+          <td><strong>Location (city level)</strong></td>
+          <td>Showing services near you</td>
+        </tr>
+        <tr>
+          <td><strong>Service listings</strong></td>
+          <td>Displayed publicly on the marketplace</td>
+        </tr>
+        <tr>
+          <td><strong>Messages</strong></td>
+          <td>Communication between users</td>
+        </tr>
+        <tr>
+          <td><strong>Exchange records</strong></td>
+          <td>Tracking credit transfers and history</td>
+        </tr>
+        <tr>
+          <td><strong>Reviews</strong></td>
+          <td>Building trust and reputation on the platform</td>
+        </tr>
+        <tr>
+          <td><strong>Device &amp; session data</strong></td>
+          <td>App stability, analytics (via Firebase)</td>
+        </tr>
+        <tr>
+          <td><strong>Feedback messages</strong></td>
+          <td>Improving the Service</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>We do not collect sensitive personal data such as health information, political opinions, or financial account details.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>Legal Basis for Processing</h2>
+    <p>Under the revFADP, we process your data on the following legal bases:</p>
+    <ul>
+      <li><strong>Contract performance</strong> — to provide the Service you have signed up for</li>
+      <li><strong>Legitimate interests</strong> — to improve the Service, ensure security, and prevent abuse</li>
+      <li><strong>Consent</strong> — for optional features such as location access, which you can withdraw at any time</li>
+      <li><strong>Legal obligation</strong> — where required by Swiss law</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>How We Use Your Data</h2>
+    <p>We use your data solely to:</p>
+    <ul>
+      <li>Operate and improve the Zeitly platform</li>
+      <li>Enable exchanges and credit transfers between users</li>
+      <li>Display your profile and services to other users</li>
+      <li>Send transactional communications (exchange updates, account notifications)</li>
+      <li>Respond to support requests and feedback</li>
+      <li>Detect and prevent fraud and abuse</li>
+    </ul>
+    <p>We do not use your data for advertising. We do not sell your data to third parties.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Third-Party Services</h2>
+    <p>Zeitly uses the following third-party services to operate:</p>
+    <ul>
+      <li><strong>Google Firebase</strong> (Firestore, Authentication, Storage, Analytics) — infrastructure and data storage. Firebase servers may be located within the EU/EEA. Google LLC is certified under the EU-U.S. Data Privacy Framework.</li>
+      <li><strong>Apple Sign In</strong> — optional authentication method. Apple processes only the data required for sign-in.</li>
+    </ul>
+    <p>We do not share your data with any other third parties except as required by law.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span>Data Retention</h2>
+    <p>We retain your data for as long as your account is active. When you delete your account:</p>
+    <ul>
+      <li>Your profile and public content are removed from view immediately</li>
+      <li>Data is permanently deleted within 30 days</li>
+      <li>Exchange records may be retained for up to 7 years where required by Swiss accounting law</li>
+      <li>Anonymised, aggregated analytics data may be retained indefinitely</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span>Your Rights</h2>
+    <p>Under the revFADP, you have the following rights regarding your personal data:</p>
+
+    <div class="rights-grid">
+      <div class="right-item">
+        <strong>Access</strong>
+        <span>Request a copy of all personal data we hold about you</span>
+      </div>
+      <div class="right-item">
+        <strong>Rectification</strong>
+        <span>Correct inaccurate or incomplete data</span>
+      </div>
+      <div class="right-item">
+        <strong>Erasure</strong>
+        <span>Request deletion of your data (right to be forgotten)</span>
+      </div>
+      <div class="right-item">
+        <strong>Portability</strong>
+        <span>Receive your data in a structured, machine-readable format</span>
+      </div>
+      <div class="right-item">
+        <strong>Objection</strong>
+        <span>Object to processing based on legitimate interests</span>
+      </div>
+      <div class="right-item">
+        <strong>Withdrawal</strong>
+        <span>Withdraw consent at any time for consent-based processing</span>
+      </div>
+    </div>
+
+    <p>To exercise any of these rights, contact us at <a href="mailto:legal@zeitly.app">legal@zeitly.app</a>. We will respond within 30 days. You also have the right to lodge a complaint with the Swiss Federal Data Protection and Information Commissioner (FDPIC) at <a href="https://www.edoeb.admin.ch" target="_blank">edoeb.admin.ch</a>.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span>Security</h2>
+    <p>We take reasonable technical and organisational measures to protect your data, including encrypted data transmission (TLS), Firebase security rules that restrict access to your own data, and regular security reviews.</p>
+    <p>No system is completely secure. If you believe your account has been compromised, contact us immediately at <a href="mailto:legal@zeitly.app">legal@zeitly.app</a>.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span>Children</h2>
+    <p>Zeitly is not intended for users under the age of 18. We do not knowingly collect data from minors. If you believe a minor has created an account, please contact us and we will delete the account promptly.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">10</span>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of material changes via the app or by email at least 14 days before the changes take effect. The current version is always available at this URL.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">11</span>Contact &amp; Data Controller</h2>
+    <p>For any privacy-related questions or to exercise your rights:</p>
+    <div class="contact-card">
+      <p><strong>Zeitly — Data Controller</strong><br>
+      St. Gallen, Switzerland<br>
+      <a href="mailto:legal@zeitly.app">legal@zeitly.app</a></p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2025 Zeitly · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+</footer>
+
+</body>
+</html>
