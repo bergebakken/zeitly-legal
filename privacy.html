@@ -200,7 +200,7 @@
 <header>
   <div class="wordmark">Zeitly</div>
   <h1>Privacy Policy</h1>
-  <p>Effective date: 1 January 2025 &nbsp;·&nbsp; Last updated: 10 March 2026</p>
+  <p>Effective date: 1 January 2025 &nbsp;·&nbsp; Last updated: 24 August 2026</p>
 </header>
 
 <div class="container">
@@ -257,11 +257,15 @@
         </tr>
         <tr>
           <td><strong>Device &amp; session data</strong></td>
-          <td>App stability, analytics (via Firebase)</td>
+          <td>App stability and anonymous usage statistics (via Firebase). Includes automatic crash reports — device model, OS version, and the sequence of events leading to a crash. Controlled by the "Help Improve Zeitly" setting.</td>
         </tr>
         <tr>
           <td><strong>Feedback messages</strong></td>
           <td>Improving the Service</td>
+        </tr>
+        <tr>
+          <td><strong>Reports</strong></td>
+          <td>Keeping the marketplace safe. A report records who filed it, who or what it concerns, and what you wrote</td>
         </tr>
       </tbody>
     </table>
@@ -292,6 +296,7 @@
       <li>Detect and prevent fraud and abuse</li>
     </ul>
     <p><strong>Feedback &amp; Support:</strong> When you submit feedback through the app, your name, email address, and message are sent to our internal Slack workspace for team review. This helps us respond to issues and improve the app. Feedback may also be stored in our database as a backup if delivery fails. You can contact us at <a href="mailto:legal@zeitly.app">legal@zeitly.app</a> to request deletion of submitted feedback.</p>
+    <p><strong>Reports &amp; Safety:</strong> When you report a person or an offering, the report — including your account identifier, the reported account, and the detail you wrote — is sent to our internal Slack workspace and reviewed by a person. Reports are never acted on automatically. The person you report is not told who filed the report. Blocking someone is private to you: your block list is readable only by you, and the person you block is not notified.</p>
     <p>We do not use your data for advertising. We do not sell your data to third parties.</p>
   </section>
 
@@ -299,10 +304,11 @@
     <h2><span class="num">05</span>Third-Party Services</h2>
     <p>Zeitly uses the following third-party services to operate:</p>
     <ul>
-      <li><strong>Google Firebase</strong> (Firestore, Authentication, Storage, Cloud Functions, Analytics) — infrastructure and data storage. Data is processed in the Europe (Zurich) region. Google LLC is certified under the EU-U.S. Data Privacy Framework. See <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy</a>.</li>
+      <li><strong>Google Firebase</strong> (Firestore, Authentication, Storage, Cloud Functions, Messaging) — infrastructure and data storage. Data is processed in the Europe (Zurich) region. Google LLC is certified under the EU-U.S. Data Privacy Framework. See <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy</a>.</li>
+      <li><strong>Firebase Analytics &amp; Crashlytics</strong> (Google) — anonymous usage statistics and automatic crash reports. A crash report contains your device model, OS version, and the sequence of events leading up to the crash; it is not linked to your account. Both are governed by the single <strong>"Help Improve Zeitly"</strong> switch in Settings — it is on by default, and turning it off stops usage analytics and crash reporting together.</li>
       <li><strong>Google Sign-In</strong> — optional authentication method. See <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>.</li>
       <li><strong>Apple Sign In</strong> — optional authentication method. Apple processes only the data required for sign-in. See <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>.</li>
-      <li><strong>Slack</strong> — internal feedback delivery. When you submit feedback, your name and email are shared with our team via Slack for review and response.</li>
+      <li><strong>Slack</strong> — internal delivery of feedback and safety reports. When you submit feedback, your name and email are shared with our team via Slack for review and response. When you file a report, the report's contents are delivered the same way.</li>
     </ul>
     <p>We do not share your data with any other third parties except as required by law.</p>
   </section>
@@ -317,6 +323,8 @@
       <li><strong>Service listings</strong> — deleted when you delete your account or remove a listing</li>
       <li><strong>Feedback</strong> — retained indefinitely for product improvement unless you request deletion</li>
       <li><strong>Analytics</strong> — anonymised, aggregated analytics data may be retained indefinitely</li>
+      <li><strong>Crash reports</strong> — retained by Firebase Crashlytics under Google's retention schedule, and not linked to your account</li>
+      <li><strong>Reports</strong> — retained as a safety record after review, so that repeat behaviour can be recognised</li>
     </ul>
     <p>When you delete your account, your profile and public content are removed from view immediately. Data is permanently deleted within 30 days.</p>
   </section>
@@ -339,8 +347,8 @@
         <span>Delete your account and all associated data via Profile&nbsp;›&nbsp;Delete Account</span>
       </div>
       <div class="right-item">
-        <strong>Opt-out of Analytics</strong>
-        <span>Disable anonymous usage data collection via Profile&nbsp;›&nbsp;Help Improve Zeitly toggle</span>
+        <strong>Opt-out of Analytics &amp; Crash Reports</strong>
+        <span>Disable anonymous usage data and crash reporting together via Profile&nbsp;›&nbsp;Help Improve Zeitly toggle</span>
       </div>
       <div class="right-item">
         <strong>Objection</strong>
